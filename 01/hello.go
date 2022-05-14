@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	strutils "awesomeProject/packages"
+	"fmt"
+)
 
 func main() {
 	fmt.Println("Hello World")
+	fmt.Println(strutils.Reverse("olleh"))
 }
